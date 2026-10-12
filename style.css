@@ -44,6 +44,26 @@ body {
   opacity: 0.95;
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin-top: 24px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-radius: 16px;
+  transition: background 0.2s;
+}
+
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
